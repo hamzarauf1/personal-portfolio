@@ -5,30 +5,30 @@ import { ArrowRight, MoveRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Link } from 'react-router-dom'
 import essentialharvest from '../../assets/projects/mockups/eh1.png'
-import sinssflow from '../../assets/projects/mockups/sf.png'
-import kyte from '../../assets/projects/mockups/kyte1.png'
+import janvry from '../../assets/projects/mockups/janvry.png'
+import cursify from '../../assets/projects/mockups/cursify.png'
 
 const images = [
      {
           id: 1,
+          src: janvry,
+          alt: 'Janvry Studio',
+          description: 'Janvry Studio 3d website Development',
+          slug: "janvry-studio-3d-website-development"
+     },
+     {
+          id: 2,
+          src: cursify,
+          alt: 'Cursify - Cursor animation Library',
+          description: 'Cursify - Cursor animation Library',
+          slug: "cursify-cursor-animation-library"
+     },
+     {
+          id: 3,
           src: essentialharvest,
           alt: 'Essential Harvest',
           description: 'Full-stack E-commerce Application',
           slug: "essential-harvest-ecommerce-application"
-     },
-     {
-          id: 2,
-          src: sinssflow,
-          alt: 'SINSSFLOW Project Management',
-          description: 'Full-stack Project Management Application',
-          slug: "project-management-application-built-for-sinss"
-     },
-     {
-          id: 3,
-          src: kyte,
-          alt: 'Kyte Energy',
-          description: 'Design and developement of website',
-          slug: "kyte-energy-website-design-and-development"
      },
 ]
 

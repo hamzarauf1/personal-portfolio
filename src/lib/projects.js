@@ -8,8 +8,23 @@ import sp from '../assets/projects/mockups/sp.png'
 import vk from '../assets/projects/mockups/vk.png'
 import cp from '../assets/projects/mockups/cp.png'
 import cursify from '../assets/projects/mockups/cursify.png'
-
+import janvry from '../assets/projects/mockups/janvry.png'
 export const projects = [
+     {
+          "name": "JANVRY STUDIO Website",
+          "slug": "janvry-studio-3d-website-development",
+          "description": "A design and Development of the Janvry Studio website, a 3D visualization studio. The website features a modern and interactive design, showcasing the studio's projects and services.",
+          "features": [
+               "Custom design tailored to Janvry Studio's branding",
+               "Fully responsive for all devices",
+               "Interactive animations and transitions",
+               "Component-based frontend developed using React.js"
+          ],
+          "techStack": ["Next Js", "Three js", "Framer Motion", "Tailwind CSS"],
+          "liveLink": "janvrystudionew.vercel.app",
+          "image": janvry,
+
+     },
      {
           "name": "Ecommerce Application",
           "slug": "essential-harvest-ecommerce-application",
