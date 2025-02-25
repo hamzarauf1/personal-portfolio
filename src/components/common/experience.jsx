@@ -4,23 +4,24 @@ import { Monitor, BriefcaseIcon } from 'lucide-react'
 import { motion } from 'framer-motion'
 import starIcon from '../../assets/skills/star.svg'
 import reactIcon from '../../assets/skills/react.svg'
+import NextIcon from '../../assets/skills/next.svg'
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company: "Sinss Digital Marketing Studio",
-    description: "Currently working as a full-stack developer at Sinss Digital Marketing Studio since March 2023. Developed e-commerce, CRM, and project management applications using the MERN stack, Next.js, PostgreSQL, and MySQL. Designed and developed over 8 websites as the sole developer.",
-    icon: starIcon,
-    technologies: ["MERN", "PostgreSQL", "MySQL"],
-    duration: "March 2023 - Present"
+    title: "Next.js Developer",
+    company: "Tridebits Technologies",
+    description: "Worked as a Next.js developer at Tridebits Technologies since Jan 2025. Developed and maintained the 4 Dynamci website templates and internal applications. Implemented SEO best practices and improved website performance.",
+    icon: NextIcon,
+    technologies: ["Next js"],
+    duration: "Jan 2025 - Present"
   },
   {
-    title: "React Developer Intern",
+    title: "Full Stack Mern Developer",
     company: "Sinss Digital Marketing Studio",
-    description: "Worked as a React.js developer intern at Sinss Digital Marketing Studio for 3 months from December 2023 to March 2024. Contributed to the development of a website built with React.js.",
+    description: "Currently working as a full-stack developer at Sinss Digital Marketing Studio since Dec 2023. Developed e-commerce, CRM, and project management applications using the MERN stack, Next.js, PostgreSQL, and MySQL. Designed and developed over 8 websites as the sole developer.",
     icon: reactIcon,
-    technologies: ["React.js"],
-    duration: "December 2023 - March 2024"
+    technologies: ["MERN", "PostgreSQL", "MySQL"],
+    duration: "Dec 2023 - Dec 2024"
   }
 ]
 
@@ -51,7 +52,7 @@ export default function Experience() {
                 {/* Left column - Title and Company */}
                 <div className="lg:col-span-4 ">
                   <div className="flex items-center gap-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-50 group-hover:bg-gray-100 transition-colors duration-300">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-500 group-hover:bg-gray-900 text-black transition-colors duration-300">
                       <img src={experience.icon} alt="" />
                     </div>
                     <div>
