@@ -31,7 +31,7 @@ export function ResumeActionsToggle() {
      const audioRef = useRef(null)
 
      // Replace this with your Google Drive file ID
-     const RESUME_PDF_ID = '1FimRSZAam0oH6vgMEQYvs0R5XbOpsHdA'
+     const RESUME_PDF_ID = '1JP1xRq8GIRrRbyA0GWTxgnhoSqtMzGjU'
      // Google Drive direct download link
      const PDF_URL = `https://drive.google.com/uc?export=download&id=${RESUME_PDF_ID}`
 
