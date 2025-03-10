@@ -1,30 +1,31 @@
-'use client'
+"use client";
 
-import { Monitor, BriefcaseIcon } from 'lucide-react'
-import { motion } from 'framer-motion'
-import starIcon from '../../assets/skills/star.svg'
-import reactIcon from '../../assets/skills/react.svg'
-import NextIcon from '../../assets/skills/next.svg'
+import { Monitor, BriefcaseIcon } from "lucide-react";
+import { motion } from "framer-motion";
+import starIcon from "../../assets/skills/star.svg";
+import reactIcon from "../../assets/skills/react.svg";
+import NextIcon from "../../assets/skills/next.svg";
 
 const experiences = [
   {
-    title: "Next.js Developer",
-    company: "Tridebits Technologies",
-    description: "Worked as a Next.js developer at Tridebits Technologies since Jan 2025. Developed and maintained the 4 Dynamci website templates and internal applications. Implemented SEO best practices and improved website performance.",
-    icon: NextIcon,
-    technologies: ["Next js"],
-    duration: "Jan 2025 - Present"
+    title: "Full Stack MERN Developer",
+    company: "Devsarch",
+    description:
+      "Currently working as a full-stack developer at Devsarch since Oct 2023. Developed e-commerce, CRM, and project management applications using the MERN stack, Next.js, PostgreSQL, and MySQL. Designed and developed over 8 websites as the sole developer.",
+    icon: reactIcon,
+    technologies: ["MERN", "PostgreSQL", "MySQL", "Next.js"],
+    duration: "Oct 2023 - Present",
   },
   {
-    title: "Full Stack Mern Developer",
-    company: "Sinss Digital Marketing Studio",
-    description: "Currently working as a full-stack developer at Sinss Digital Marketing Studio since Dec 2023. Developed e-commerce, CRM, and project management applications using the MERN stack, Next.js, PostgreSQL, and MySQL. Designed and developed over 8 websites as the sole developer.",
-    icon: reactIcon,
-    technologies: ["MERN", "PostgreSQL", "MySQL"],
-    duration: "Dec 2023 - Dec 2024"
-  }
-]
-
+    title: "Next.js Developer",
+    company: "Petsaal Technologies",
+    description:
+      "Worked as a Full stack developer at Petsaal Technologies since Aug 2023. Developed and maintained the 4 Dynamci website templates and internal applications. Implemented SEO best practices and improved website performance.",
+    icon: NextIcon,
+    technologies: ["Next.js"],
+    duration: "Aug 2023 - Oct 2023",
+  },
+];
 
 export default function Experience() {
   return (
@@ -90,5 +91,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
