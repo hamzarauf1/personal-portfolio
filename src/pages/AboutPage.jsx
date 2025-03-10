@@ -46,7 +46,7 @@ export const AboutsPage = () => {
       />
       <section className="relative grid min-h-screen w-full place-content-center overflow-hidden bg-[#fff]]">
         <h2 className="relative z-0 text-[14vw] font-black text-neutral-800 md:text-[200px]">
-          DURGESH<span className="text-orange-500">.</span>
+          Hamza<span className="text-orange-500">.</span>
         </h2>
         <Cards />
       </section>
@@ -58,13 +58,13 @@ export const AboutsPage = () => {
             className="flex flex-col items-start"
           >
             <div className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-gray-900 p-8">
-              I&apos;m Durgesh,{" "}
+              I&apos;m Hamza,{" "}
               <FlipWords
                 className="bg-gradient-to-r from-green-600 to-green-400 text-white px-4 py-2 rounded-xl shadow-lg"
                 words={words}
               />{" "}
               <span className="block mt-4">
-                Developer living in Nashik & Focus on making digital experiences
+                Developer living in Lahore & Focus on making digital experiences
                 that are easy to use, enjoyable & get the job done.
               </span>
             </div>
@@ -121,7 +121,7 @@ export const AboutsPage = () => {
                 <span className="font-semibold text-green-400">Next.js</span>,{" "}
                 <span className="font-semibold text-green-400">PostgreSQL</span>
                 , and{" "}
-                <span className="font-semibold text-green-400">MySQL</span>. I
+                <span className="font-semibold text-green-400">Prisma</span>. I
                 focus on writing clean code, crafting intuitive UI/UX, and
                 delivering impactful solutions from concept to deployment.
               </p>
@@ -156,7 +156,7 @@ export const AboutsPage = () => {
             <div className="p-8 rounded-2xl">
               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800">
                 With expertise in{" "}
-                <span className="font-semibold text-green-400">React.js</span>,{" "}
+                <span className="font-semibold text-green-400">Next.js</span>,{" "}
                 <span className="font-semibold text-green-400">Node.js</span>,
                 and scalable databases, I’m passionate about creating
                 user-focused applications that not only solve problems but also
@@ -179,7 +179,7 @@ const Cards = () => {
     <div className="absolute inset-0 z-10" ref={containerRef}>
       <Card
         containerRef={containerRef}
-        src="https://res.cloudinary.com/du5gaixvs/image/upload/v1732008102/portfolio/WhatsApp_Image_2024-11-18_at_16.49.01_swnqcv.jpg"
+        src="https://res.cloudinary.com/dk9t6i4an/image/upload/v1741425123/FB_IMG_1741424810453_djdh68.jpg"
         alt="Example image"
         rotate="6deg"
         top="20%"
