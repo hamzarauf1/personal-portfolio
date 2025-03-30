@@ -1,8 +1,8 @@
 "use client";
 
-import { Monitor, BriefcaseIcon } from "lucide-react";
+// import { Monitor, BriefcaseIcon } from "lucide-react";
 import { motion } from "framer-motion";
-import starIcon from "../../assets/skills/star.svg";
+// import starIcon from "../../assets/skills/star.svg";
 import reactIcon from "../../assets/skills/react.svg";
 import NextIcon from "../../assets/skills/next.svg";
 
@@ -20,7 +20,7 @@ const experiences = [
     title: "Next.js Developer",
     company: "Petsaal Technologies",
     description:
-      "Worked as a Full stack developer at Petsaal Technologies since Aug 2023. Developed and maintained the 4 Dynamci website templates and internal applications. Implemented SEO best practices and improved website performance.",
+      "Worked as a Next.JS developer at Petsaal Technologies since Aug 2023. Developed and maintained the 4 Dynamci website templates and internal applications. Implemented SEO best practices and improved website performance.",
     icon: NextIcon,
     technologies: ["Next.js"],
     duration: "Aug 2023 - Oct 2023",
