@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar"
-import LocomotiveScroll from 'locomotive-scroll';
+import Navbar from "./components/Navbar";
+import LocomotiveScroll from "locomotive-scroll";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
@@ -12,22 +12,24 @@ import { ResumeActions } from "./components/common/ResumeActions";
 import { useEffect, useState } from "react";
 
 export default function App() {
-
   useEffect(() => {
     const scroll = new LocomotiveScroll({
       el: document.querySelector("[data-scroll-container]"),
       smooth: true,
     });
 
-    return () => scroll.destroy(); 
+    return () => scroll.destroy();
   }, []);
-  const [activeSection, setActiveSection] = useState('');
-  console.log('')
+  const [activeSection, setActiveSection] = useState("");
+  console.log("");
   return (
     <>
       <Navbar activeSection={activeSection} />
       <Routes>
-        <Route path="/" element={<HomePage setActiveSection={setActiveSection} />} />
+        <Route
+          path="/"
+          element={<HomePage setActiveSection={setActiveSection} />}
+        />
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/projects/:slug" element={<ProjectDetails />} />
         <Route path="/blogs" element={<BlogPage />} />
@@ -37,5 +39,5 @@ export default function App() {
       </Routes>
       <ResumeActions />
     </>
-  )
+  );
 }
