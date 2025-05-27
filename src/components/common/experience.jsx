@@ -8,22 +8,22 @@ import NextIcon from "../../assets/skills/next.svg";
 
 const experiences = [
   {
-    title: "Full Stack MERN Developer",
-    company: "Devsarch",
+    title: "Full Stack Developer",
+    company: "Keyhole",
     description:
-      "Currently working as a full-stack developer at Devsarch since Oct 2023. Developed e-commerce, CRM, and project management applications using the MERN stack, Next.js, PostgreSQL, and MySQL. Designed and developed over 8 websites as the sole developer.",
+      "Currently working as a full-stack developer at Keyhole since Dec 2021.Built full-stack features using React (Next.js) and scalable Python APIs with Flask/FastAPI. Developed ETL pipelines via Airflow and custom Python scripts to process third-party social data. Used Pandas, NumPy, and Scikit-learn for real-time analytics and audience insights. Integrated sentiment analysis with spaCy/NLTK to enrich content interpretation. Deployed on AWS using Docker and Gunicorn, ensuring scalable performance..",
     icon: reactIcon,
     technologies: ["MERN", "PostgreSQL", "MySQL", "Next.js"],
-    duration: "Oct 2023 - Present",
+    duration: "Dec 2021 - Present",
   },
   {
-    title: "Next.js Developer",
-    company: "Petsaal Technologies",
+    title: "Software Engineer",
+    company: "Shewt.io",
     description:
-      "Worked as a Next.JS developer at Petsaal Technologies since Aug 2023. Developed and maintained the 4 Dynamci website templates and internal applications. Implemented SEO best practices and improved website performance.",
+      "Worked as a Next.JS developer at Shewt.io since Apr 2020.Designed and developed a high-quality messaging platform, owning everything from backend architecture to a clean, intuitive UI layout. Built dynamic interfaces with React.js, paired with server-side rendering techniques to boost page responsiveness and user engagement.",
     icon: NextIcon,
-    technologies: ["Next.js"],
-    duration: "Aug 2023 - Oct 2023",
+    technologies: ["Next.js", "Stripe", "PostgreSQL", "Mantine JS"],
+    duration: "Apr 2020 - Oct 2021",
   },
 ];
 

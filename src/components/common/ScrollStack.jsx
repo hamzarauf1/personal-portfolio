@@ -71,9 +71,9 @@ export default function ScrollStack({ onSectionChange }) {
           <section className="h-screen sticky top-0" id="aboutus">
             <AboutUs />
           </section>
-          {/* <section className="h-screen sticky top-0" id="projects">
+          <section className="h-screen sticky top-0" id="projects">
             <Projects />
-          </section> */}
+          </section>
           <section className="h-screen sticky top-0" id="skills">
             <Skills />
           </section>

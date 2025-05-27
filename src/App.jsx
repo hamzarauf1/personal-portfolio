@@ -10,6 +10,7 @@ import ProjectDetails from "./pages/ProjectDetails";
 import BlogDetails from "./pages/BlogDetails";
 import { ResumeActions } from "./components/common/ResumeActions";
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <ResumeActions />
+      <Analytics />
     </>
   );
 }
