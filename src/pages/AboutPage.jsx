@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 import { RevealLinks } from "../components/common/RevealLinks";
@@ -114,7 +114,7 @@ export const AboutsPage = () => {
                 <span className="font-semibold text-green-600">
                   Full-Stack Developer
                 </span>{" "}
-                with 1+ years of experience building scalable and user-focused
+                with 6+ years of experience building scalable and user-focused
                 web applications. Skilled in the{" "}
                 <span className="font-semibold text-green-400">MERN stack</span>{" "}
                 (MongoDB, Express, React, Node.js),{" "}
@@ -156,8 +156,11 @@ export const AboutsPage = () => {
             <div className="p-8 rounded-2xl">
               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800">
                 With expertise in{" "}
-                <span className="font-semibold text-green-400">Next.js</span>,{" "}
-                <span className="font-semibold text-green-400">Node.js</span>,
+                <span className="font-semibold text-green-400">
+                  Full Stack Development
+                </span>
+                ,{" "}
+                {/* <span className="font-semibold text-green-400">Node.js</span>, */}
                 and scalable databases, I’m passionate about creating
                 user-focused applications that not only solve problems but also
                 deliver exceptional user experiences.
