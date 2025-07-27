@@ -4,7 +4,7 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import { ArrowRight, MoveRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import keyhole from "../../assets/projects/mockups/keyhole.png";
+import govGpt from "../../assets/projects/mockups/gov-gpt.png";
 import shewt from "../../assets/projects/mockups/shewt-io.png";
 import ssom from "../../assets/projects/mockups/ssom.png";
 
@@ -25,10 +25,10 @@ const images = [
   },
   {
     id: 3,
-    src: keyhole,
-    alt: "Keyhole",
-    description: "Keyhole - Social media insights application",
-    slug: "keyhole-social-media-insights-application",
+    src: govGpt,
+    alt: "Gov-GPT",
+    description: "Gov-GPT - AI-powered government contract services",
+    slug: "gov-gpt-ai-powered-government-contract-services",
   },
 ];
 

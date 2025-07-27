@@ -7,28 +7,28 @@ import qualityDigital from "../assets/projects/mockups/qd1.png";
 import sp from "../assets/projects/mockups/sp.png";
 import vk from "../assets/projects/mockups/vk.png";
 import cp from "../assets/projects/mockups/cp.png";
-import cursify from "../assets/projects/mockups/cursify.png";
-import janvry from "../assets/projects/mockups/janvry.png";
+// import cursify from "../assets/projects/mockups/cursify.png";
+// import janvry from "../assets/projects/mockups/janvry.png";
 import ssom from "../assets/projects/mockups/ssom-laptop.png";
-import keyhole from "../assets/projects/mockups/keyhole-laptop.png";
+import govGpt from "../assets/projects/mockups/govgpt-laptop.png";
 import shewt from "../assets/projects/mockups/shewt-laptop.png";
 
 export const projects = [
-  {
-    name: "JANVRY STUDIO Website",
-    slug: "janvry-studio-3d-website-development",
-    description:
-      "A design and Development of the Janvry Studio website, a 3D visualization studio. The website features a modern and interactive design, showcasing the studio's projects and services.",
-    features: [
-      "Custom design tailored to Janvry Studio's branding",
-      "Fully responsive for all devices",
-      "Interactive animations and transitions",
-      "Component-based frontend developed using React.js",
-    ],
-    techStack: ["Next Js", "Three js", "Framer Motion", "Tailwind CSS"],
-    liveLink: "janvrystudionew.vercel.app",
-    image: janvry,
-  },
+  // {
+  //   name: "JANVRY STUDIO Website",
+  //   slug: "janvry-studio-3d-website-development",
+  //   description:
+  //     "A design and Development of the Janvry Studio website, a 3D visualization studio. The website features a modern and interactive design, showcasing the studio's projects and services.",
+  //   features: [
+  //     "Custom design tailored to Janvry Studio's branding",
+  //     "Fully responsive for all devices",
+  //     "Interactive animations and transitions",
+  //     "Component-based frontend developed using React.js",
+  //   ],
+  //   techStack: ["Next Js", "Three js", "Framer Motion", "Tailwind CSS"],
+  //   liveLink: "janvrystudionew.vercel.app",
+  //   image: janvry,
+  // },
   {
     name: "Ecommerce Application",
     slug: "essential-harvest-ecommerce-application",
@@ -184,21 +184,21 @@ export const projects = [
     liveLink: "climate-production.vercel.app/",
     image: cp,
   },
-  {
-    name: "Cursify - Cursor Animation Library",
-    slug: "cursify-cursor-animation-library",
-    description:
-      "Cursify is an open-source library designed for creating stunning and interactive cursor animations. Built with React, TypeScript, Tailwind CSS, and Framer Motion, it offers seamless integration and full customization for modern web projects.",
-    features: [
-      "Fully customizable cursor animations",
-      "Built with modern tools like React and TypeScript",
-      "Smooth motion effects powered by Framer Motion",
-      "Tailwind CSS for flexible styling and design",
-    ],
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    liveLink: "cursify.vercel.app",
-    image: cursify,
-  },
+  // {
+  //   name: "Cursify - Cursor Animation Library",
+  //   slug: "cursify-cursor-animation-library",
+  //   description:
+  //     "Cursify is an open-source library designed for creating stunning and interactive cursor animations. Built with React, TypeScript, Tailwind CSS, and Framer Motion, it offers seamless integration and full customization for modern web projects.",
+  //   features: [
+  //     "Fully customizable cursor animations",
+  //     "Built with modern tools like React and TypeScript",
+  //     "Smooth motion effects powered by Framer Motion",
+  //     "Tailwind CSS for flexible styling and design",
+  //   ],
+  //   techStack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  //   liveLink: "cursify.vercel.app",
+  //   image: cursify,
+  // },
   {
     name: "Shewt.io",
     slug: "shewt-io-realtime-chat-application",
@@ -233,22 +233,36 @@ export const projects = [
       "PostgreSQL",
       "Tailwind CSS",
     ],
-    liveLink: "https://startupstateofmind.com/",
+    liveLink: "startupstateofmind.com/",
     image: ssom,
   },
+
   {
-    name: "Keyhole",
-    slug: "keyhole-social-media-insights-application",
+    name: "Gov-GPT",
+    slug: "gov-gpt-ai-powered-government-contract-services",
     description:
-      "A social media insights application for startups to track their social media performance built with Next.js, Prisma, strapi, PostgreSQL, and Tailwind CSS.",
+      "Gov‑GPT is an AI‑powered platform that helps businesses discover, analyze, and compete for government contracts by delivering tailored recommendations and contract management tools. It's designed to streamline the bidding process by simplifying how companies navigate complex public sector procurement opportunities",
     features: [
-      "Custom design tailored to Shewt.io's branding",
+      "AI-powered contract analysis and recommendation system",
+      "Government contract discovery and tracking",
+      "Contract management and bidding tools",
+      "User-friendly interface for easy navigation",
+      "Real-time updates and notifications",
+      "Data visualization and insights",
+      "Custom design tailored to Gov-GPT branding",
       "Fully responsive for all devices",
       "Interactive animations and transitions",
-      "Component-based frontend developed using Next.js",
     ],
-    techStack: ["Next Js", "Prisma", "PostgreSQL", "Tailwind CSS"],
-    liveLink: "https://keyhole.co/",
-    image: keyhole,
+    techStack: [
+      "Next Js",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Supabase",
+      "OpenAI",
+      "Vercel",
+    ],
+    liveLink: "www.gov-gpt.org/",
+    image: govGpt,
   },
 ];

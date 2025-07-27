@@ -114,7 +114,7 @@ export const AboutsPage = () => {
                 <span className="font-semibold text-green-600">
                   Full-Stack Developer
                 </span>{" "}
-                with 6+ years of experience building scalable and user-focused
+                with 3+ years of experience building scalable and user-focused
                 web applications. Skilled in the{" "}
                 <span className="font-semibold text-green-400">MERN stack</span>{" "}
                 (MongoDB, Express, React, Node.js),{" "}
