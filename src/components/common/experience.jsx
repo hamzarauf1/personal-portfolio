@@ -9,21 +9,21 @@ import NextIcon from "../../assets/skills/next.svg";
 const experiences = [
   {
     title: "Full Stack Developer",
-    company: "Keyhole",
+    company: "Devsarch",
     description:
-      "Currently working as a full-stack developer at Keyhole since Dec 2021.Built full-stack features using React (Next.js) and scalable Python APIs with Flask/FastAPI. Developed ETL pipelines via Airflow and custom Python scripts to process third-party social data. Used Pandas, NumPy, and Scikit-learn for real-time analytics and audience insights. Integrated sentiment analysis with spaCy/NLTK to enrich content interpretation. Deployed on AWS using Docker and Gunicorn, ensuring scalable performance..",
+      "Currently working as a Full Stack MERN Developer with 3 years of experience building scalable web applications using React, Node.js, Express, and MongoDB. Skilled in developing responsive UIs, REST APIs, authentication flows, and deploying full-stack solutions with modern DevOps tools.",
     icon: reactIcon,
     technologies: ["MERN", "PostgreSQL", "MySQL", "Next.js"],
-    duration: "Dec 2021 - Present",
+    duration: "May 2023 - Present",
   },
   {
     title: "Software Engineer",
-    company: "Shewt.io",
+    company: "Petsaal Technologies",
     description:
-      "Worked as a Next.JS developer at Shewt.io since Apr 2020.Designed and developed a high-quality messaging platform, owning everything from backend architecture to a clean, intuitive UI layout. Built dynamic interfaces with React.js, paired with server-side rendering techniques to boost page responsiveness and user engagement.",
+      "Worked as a Next.JS developer at Petsaal Technologies since Apr 2022.Designed and developed a high-quality messaging platform, owning everything from backend architecture to a clean, intuitive UI layout. Built dynamic interfaces with React.js, paired with server-side rendering techniques to boost page responsiveness and user engagement.",
     icon: NextIcon,
     technologies: ["Next.js", "Stripe", "PostgreSQL", "Mantine JS"],
-    duration: "Apr 2020 - Oct 2021",
+    duration: "Apr 2022 - May 2023",
   },
 ];
 
