@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Static Pages -->
   <url>
     <loc>https://hamzarauf.vercel.app/</loc>
     <changefreq>monthly</changefreq>
@@ -24,5 +25,104 @@
     <loc>https://hamzarauf.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- Project Pages -->
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/essential-harvest-ecommerce-application</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/project-management-application-built-for-sinss</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/kyte-energy-website-design-and-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/lumberjack-studio-website-design-and-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/forcon-infra-website-design-and-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/quality-digital-website-design-and-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/portfolio-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/vk-food-website-design-and-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/shewt-io-realtime-chat-application</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/ssom-ecommerce-application</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/projects/gov-gpt-ai-powered-government-contract-services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Pages -->
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/upload-files-to-s3-and-digitalocean-spaces</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/exploring-nvidia-llama-3-1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/quantum-machine-learning-new-era</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/rust-web-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/edge-computing-revolution</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/graphql-api-design</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/webassembly-future-web</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hamzarauf.vercel.app/blogs/microservices-architecture-patterns</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
