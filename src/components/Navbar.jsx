@@ -80,7 +80,12 @@ export default function Navbar({ activeSection }) {
           </div>
           <div className="flex items-center">
             <Link to={"https://github.com/hamzarauf1"}>
-              <Button variant="ghost" size="icon" className="mr-2 bg-green-400">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="mr-2 bg-green-400"
+                aria-label="Open GitHub profile"
+              >
                 <Github className="h-5 w-5" />
               </Button>
             </Link>
@@ -99,6 +104,7 @@ export default function Navbar({ activeSection }) {
                       ? "bg-white"
                       : "bg-green-300"
                   }`}
+                  aria-label="Open navigation menu"
                 >
                   <Menu className="h-5 w-5" />
                 </Button>

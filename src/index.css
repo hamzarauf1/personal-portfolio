@@ -1,21 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 /* You had @tailwind directives duplicated - removed the duplicate */
 
 @font-face {
-  font-family: 'Montreal';
-  src: url('/fonts/Montreal-Light.ttf') format('truetype');
+  font-family: "Montreal";
+  src: url("/fonts/Montreal-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montreal';
-  src: url('/fonts/Montreal-Book.ttf') format('truetype');
+  font-family: "Montreal";
+  src: url("/fonts/Montreal-Book.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @layer base {
@@ -45,7 +47,7 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem;  /* Added missing semicolon */
+    --radius: 0.5rem; /* Added missing semicolon */
   }
 
   .dark {
@@ -72,7 +74,7 @@
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;  /* Added missing semicolon */
+    --chart-5: 340 75% 55%; /* Added missing semicolon */
   }
 }
 
@@ -81,20 +83,23 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-montreal;  /* Combined the two body styles */
+    @apply bg-background text-foreground font-montreal; /* Combined the two body styles */
   }
 }
 
-
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-
-  .animate-fadeIn {
-    animation: fadeIn 0.4s ease-out forwards;
+  to {
+    opacity: 1;
   }
+}
 
-  .ease-spring {
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.ease-spring {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
